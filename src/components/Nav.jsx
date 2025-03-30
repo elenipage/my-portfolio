@@ -14,7 +14,7 @@ export function Nav(props) {
         />
       </figure>
       <section className="card-body items-center text-center">
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>Full stack software developer with a passion for creating seamlessly interactive websites and apps that make a difference.</p>
         <section className="card-actions">
           <ul className="menu px-1">
             {sections.map(({ id, label }) => (
@@ -40,18 +40,18 @@ export function Nav(props) {
         <ul className="menu menu-horizontal">
           <li>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/eleni-page"
               target="_blank"
-              className="block text-gray-600 hover:text-blue-500 mb-2"
+              className="block text-gray-600 hover:text-orange-500 mb-2"
             >
               LinkedIn
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/elenipage"
               target="_blank"
-              className="block text-gray-600 hover:text-blue-500"
+              className="block text-gray-600 hover:text-orange-500"
             >
               GitHub
             </a>
